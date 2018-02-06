@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Server Unresponsive</title>
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet"> 
+
+        <script type="text/javascript" src="js/reload.js"></script>
+        <!-- <script type="text/javascript">
+            window.onload = function countdown(remaining) {
+            if(remaining <= 0)
+		        location.reload(true);
+		        document.getElementById('countdown').innerHTML = remaining;
+		    	setTimeout(function(){ countdown(remaining - 1); }, 1000);
+            }
+        </script>
+ -->
+    </head>
+    <body onload="countdown(30);">
+    	<nav class="navbar navbar-default">
+  			<div class="container-fluid">
+   				<div class="navbar-header">
+      				<a class="navbar-brand" href="#">
+       					 <img alt="Brand" class="brand" src="img/nav-banner_ra_large.png">
+      				</a>
+    			</div>
+  			</div>
+		</nav>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <article class="col-md-12 text-center main-content">
+        	<dir class="fire">
+        		<img src="img/fire.svg" alt="Fire">
+        	</dir>
+        	<dir class="error-text">
+        		<div class="main-text">
+        			<p><strong>The Server's in flames!</strong></p>
+        		</div>
+        		<div class="sub-text">
+        			<p>Should be back up real quick.</p>
+        		</div>
+        		<div class="error-code">
+        			<hr>
+        			<p>502</p>
+        		</div>
+        		<div class="reload">
+        			<p><img src="img/ajax-loader.gif"> Server reloads in <span id="countdown"/>30</p></p>
+        		</div>
+        	</dir>
+        </article>
+
+
+		<!--Footer-->
+		<div class="footer">
+			<p>&copy; 2018. J.C.P Laboratory</p>
+		</div>
+		<!--/.Footer-->
+                
+    </body>
+</html>
