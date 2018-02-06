@@ -13,4 +13,4 @@ This project is based upon the work mentioned & linked above.
 Icons by Flaticons
 ----------------------------------------------
 
-All Icons are made by their respective authors as discributed by http://flaticons.com
+All Icons are made by their respective authors as discributed by http://flaticon.com
