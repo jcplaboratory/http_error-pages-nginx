@@ -3,10 +3,12 @@
 --------------------------------------------
 
 # Custom HTTP Error pages for NGINX.
-## Forked from https://github.com/alexbaldwin/error
-
 These responsive HTTP error pages are based on Twitter's Bootstrap framework.
 Follow a very simple design and feature auto reload with Javascript.
+
+## Forked from https://github.com/alexbaldwin/error
+This project is based upon the work mentioned & linked above.
+
 
 Icons by Flaticons
 ----------------------------------------------
