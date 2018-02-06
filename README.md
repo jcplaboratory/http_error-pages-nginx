@@ -8,4 +8,7 @@
 These responsive HTTP error pages are based on Twitter's Bootstrap framework.
 Follow a very simple design and feature auto reload with Javascript.
 
+Icons by Flaticons
+----------------------------------------------
 
+All Icons are made by their respective authors as discributed by http://flaticons.com
