@@ -11,7 +11,7 @@ Follow a very simple design and feature auto actions with Javascript.
 * [500](500.html)
 * [502](502.html)
 
-### Visit demo site (https://jcplaboratory.github.io/http_error-pages-nginx/)
+[Visit demo site](https://jcplaboratory.github.io/http_error-pages-nginx/)
 
 ## Forked from https://github.com/alexbaldwin/error
 This project is based upon the work mentioned & linked above.
