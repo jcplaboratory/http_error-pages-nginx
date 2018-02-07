@@ -540,8 +540,10 @@
              }
 
              .image {
+                padding-left: 1%;
                 float: left;
                 min-width: 250px;
+                margin-right: : 10%;
              }
 
              .image img {
@@ -609,6 +611,7 @@
              .content {
                 display: grid;
                 float: left;
+                padding-left: 3%;
              }
 
              .error-code p {
