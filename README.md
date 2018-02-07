@@ -1,4 +1,3 @@
---------------------------------------------
 [![jcplaboratory](https://www.jcplaboratory.org/wp-content/uploads/2016/08/nav-banner_ra_large.png?w=250)](http://jcplaboratory.org)
 --------------------------------------------
 
