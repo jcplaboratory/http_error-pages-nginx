@@ -3,10 +3,10 @@
 --------------------------------------------
 
 # Custom HTTP Error pages for NGINX.
-These responsive HTTP error pages are based on Twitter's Bootstrap framework.
-Follow a very simple design and feature auto reload with Javascript.
+These responsive HTTP error pages are based on Twitter's Bootstrap framework.  
+Follow a very simple design and feature auto actions with Javascript.  
 
-## List of HTTP Error pages
+## List of HTTP Error pages  
 * [403](403.html)
 * [404](404.html)
 * [500](500.html)
