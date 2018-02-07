@@ -14,22 +14,14 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet"> 
 
         <script type="text/javascript" src="js/reload.js"></script>
-        <!-- <script type="text/javascript">
-            window.onload = function countdown(remaining) {
-            if(remaining <= 0)
-		        location.reload(true);
-		        document.getElementById('countdown').innerHTML = remaining;
-		    	setTimeout(function(){ countdown(remaining - 1); }, 1000);
-            }
-        </script>
- -->
+     
     </head>
     <body onload="countdown(30);">
     	<nav class="navbar navbar-default">
   			<div class="container-fluid">
    				<div class="navbar-header">
-      				<a class="navbar-brand" href="#">
-       					 <img alt="Brand" class="brand" src="img/nav-banner_ra_large.png">
+      				<a class="navbar-brand" href="http://jcplaboratory.org">
+       					 <img alt="Logo" class="brand" src="img/nav-banner_ra_large.png">
       				</a>
     			</div>
   			</div>
@@ -40,10 +32,10 @@
 
         <!-- Add your site or application content here -->
         <article class="col-md-12 text-center main-content">
-        	<dir class="fire">
+        	<div class="fire">
         		<img src="img/fire.svg" alt="Fire">
-        	</dir>
-        	<dir class="error-text">
+        	</div>
+        	<div class="error-text">
         		<div class="main-text">
         			<p><strong>The Server's in flames!</strong></p>
         		</div>
@@ -57,7 +49,7 @@
         		<div class="reload">
         			<p><img src="img/ajax-loader.gif"> Server reloads in <span id="countdown"/>30</p></p>
         		</div>
-        	</dir>
+        	</div>
         </article>
 
 
