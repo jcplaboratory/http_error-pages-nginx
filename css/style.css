@@ -7,7 +7,16 @@
             /*
              * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
              */
-            
+            @font-face {
+                font-family: Ubuntu;
+                src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+            }
+
+            @font-face {
+                font-family: Open Sans;
+                src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+            }
+
             article,
             aside,
             details,
@@ -530,12 +539,12 @@
                 float: none;
              }
 
-             .fire {
+             .image {
                 float: left;
                 min-width: 250px;
              }
 
-             .fire img {
+             .image img {
                 width: 100%;
              }
              
@@ -565,7 +574,7 @@
                              animation-name: fadeInUp;
              }
 
-             .fire img {
+             .image img {
                 -webkit-animation-duration: 2s;
                      -moz-animation-duration: 2s;
                        -o-animation-duration: 2s;
@@ -589,16 +598,25 @@
              .sub-text {
                 font-family: 'Open Sans', sans-serif;
                 margin: 1px;
-                 color:black;
-                 font-size:2em;
+                color:black;
+                font-size:2em;
              }
 
-             .error-text {
+             .sub-text p {
+                float: left;
+             }
+
+             .content {
                 display: grid;
                 float: left;
              }
 
-             .error-code hr {
+             .error-code p {
+                float: right;
+                margin-top: -15px;
+             }
+
+             .division hr {
                 -webkit-animation-duration: 2s;
                      -moz-animation-duration: 2s;
                        -o-animation-duration: 2s;
@@ -611,14 +629,14 @@
                      -moz-animation-name: fadeInUp;
                          -o-animation-name: fadeInUp;
                              animation-name: fadeInUp;
-
+                float: right;
                 border-width: 2px;
                 border-color: #3095A9;
                 width: 70%;
                 margin-left: 133px;
              }
 
-             .error-code p {
+             .division p {
                 float: right;
                 margin-top: -15px;
                 font-family: 'Open Sans', sans-serif;
@@ -647,18 +665,22 @@
             }
 
             @media(max-width: 600px){
-                .fire {
+                .image {
                     float: none;
                 }
-                .fire img {
+                .image img {
                     width: 50%;
-                }
-                .error-text p {
                     float: none;
                 }
-                .error-code hr {
+                .error-code p {
+                    float: none;
+                }
+                .division hr {
                     margin-left: unset;
                     width: 100%;
+                }
+                .sub-text p {
+                    float: none;
                 }
             }
             
