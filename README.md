@@ -24,9 +24,11 @@ All Icons are made by their respective authors as discributed by http://flaticon
 
 How to use?
 ----------------------------------------------
-1. Fork this repository to customize the templates.
-2. Clone the repository to your NGINX root `/var/www/html`
-3. Edit each NGINX virtual site configuration to include the following inside the `server` block.
+1. Fork this repository.
+2. Re-direct the CSS and images to your fork.
+3. Customize the templates.
+4. Clone the repository to your NGINX root `/var/www/html`
+5. Edit each NGINX virtual site configuration to include the following inside the `server` block.
 ```
         error_page 403 /http_error-pages-nginx/403.html;
         location = /http_error-pages-nginx/403.html {
