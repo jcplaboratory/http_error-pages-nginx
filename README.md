@@ -32,3 +32,7 @@ error_page 404 /http_error-pages-nginx/404.html;
 error_page 500 /http_error-pages-nginx/500.html;
 error_page 502 /http_error-pages-nginx/502.html;
 ```
+
+How to contribute?
+----------------------------------------------
+See the [master]https://github.com/jcplaboratory/http_error-pages-nginx/tree/master branch.
