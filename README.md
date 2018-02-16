@@ -32,6 +32,7 @@ How to use?
                 root /var/www/html;
                 internal;
         }
+        
         error_page 404 /http_error-pages-nginx/404.html;
         location = /http_error-pages-nginx/404.html {
                 root /var/www/html;
