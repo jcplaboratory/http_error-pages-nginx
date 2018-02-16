@@ -35,4 +35,4 @@ error_page 502 /http_error-pages-nginx/502.html;
 
 How to contribute?
 ----------------------------------------------
-See the [master]https://github.com/jcplaboratory/http_error-pages-nginx/tree/master branch.
+See the [master](https://github.com/jcplaboratory/http_error-pages-nginx/tree/master) branch.
