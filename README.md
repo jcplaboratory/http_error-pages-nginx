@@ -21,3 +21,7 @@ Icons by Flaticons
 ----------------------------------------------
 
 All Icons are made by their respective authors as discributed by http://flaticon.com
+
+How to Contribute?
+----------------------------------------------
+Clone this master branch `git clone -b master https://github.com/jcplaboratory/http_error-pages-nginx.git`
