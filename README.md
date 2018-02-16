@@ -25,7 +25,7 @@ All Icons are made by their respective authors as discributed by http://flaticon
 How to use?
 ----------------------------------------------
 1. Clone this repository to your NGINX root `/var/www/html`
-2. Edit your the NGINX virtual site configuration to include the following:
+2. Edit each NGINX virtual site configuration to include the following:
 ```
 error_page 403 /http_error-pages-nginx/403.html;
 error_page 404 /http_error-pages-nginx/404.html;
