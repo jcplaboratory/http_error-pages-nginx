@@ -27,10 +27,29 @@ How to use?
 1. Clone this repository to your NGINX root `/var/www/html`
 2. Edit each NGINX virtual site configuration to include the following:
 ```
-error_page 403 /http_error-pages-nginx/403.html;
-error_page 404 /http_error-pages-nginx/404.html;
-error_page 500 /http_error-pages-nginx/500.html;
-error_page 502 /http_error-pages-nginx/502.html;
+ error_page 403 /http_error-pages-nginx/403.html;
+        location = /http_error-pages-nginx/403.html {
+                root /var/www/html;
+                internal;
+        }
+        error_page 404 /http_error-pages-nginx/404.html;
+        location = /http_error-pages-nginx/404.html {
+                root /var/www/html;
+                internal;
+        }
+
+        error_page 500 /http_error-pages-nginx/500.html;
+        location = /http_error-pages-nginx/500.html {
+                root /var/www/html;
+                internal;
+        }
+
+        error_page 502 /http_error-pages-nginx/502.html;
+        location = /http_error-pages-nginx/502.html {
+                root /var/www/html;
+                internal;
+        }
+
 ```
 
 How to contribute?
