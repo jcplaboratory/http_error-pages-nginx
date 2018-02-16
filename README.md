@@ -22,13 +22,13 @@ Icons by Flaticons
 
 All Icons are made by their respective authors as discributed by http://flaticon.com
 
-#How to use?
+How to use?
 ----------------------------------------------
-1. Clone this repository to your NGINX root "/var/www/html"
+1. Clone this repository to your NGINX root `/var/www/html`
 2. Edit your the NGINX configuratory for each site to include the following:
 ```
-error_page 403 /http_error-pages-nginx/404.html;
+error_page 403 /http_error-pages-nginx/403.html;
 error_page 404 /http_error-pages-nginx/404.html;
-error_page 500 /http_error-pages-nginx/404.html;
-error_page 502 /http_error-pages-nginx/404.html;
+error_page 500 /http_error-pages-nginx/500.html;
+error_page 502 /http_error-pages-nginx/502.html;
 ```
