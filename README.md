@@ -31,6 +31,12 @@ How to use?
 4. Clone the repository to your NGINX root `/var/www/html`
 5. Edit each NGINX virtual site configuration to include the following inside the `server` block.
 ```
+        error_page 401 /http_error-pages-nginx/401.html;
+        location = /http_error-pages-nginx/401.html {
+                root /var/www/html;
+                internal;
+        }
+        
         error_page 403 /http_error-pages-nginx/403.html;
         location = /http_error-pages-nginx/403.html {
                 root /var/www/html;
