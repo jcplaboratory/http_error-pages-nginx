@@ -22,40 +22,6 @@ Icons by Flaticons
 
 All Icons are made by their respective authors as discributed by http://flaticon.com
 
-How to use?
+How to Contribute?
 ----------------------------------------------
-1. Fork this repository.
-2. Re-direct the CSS and images to your fork.
-3. Customize the templates.
-4. Clone the repository to your NGINX root `/var/www/html`
-5. Edit each NGINX virtual site configuration to include the following inside the `server` block.
-```
-        error_page 403 /http_error-pages-nginx/403.html;
-        location = /http_error-pages-nginx/403.html {
-                root /var/www/html;
-                internal;
-        }
-        
-        error_page 404 /http_error-pages-nginx/404.html;
-        location = /http_error-pages-nginx/404.html {
-                root /var/www/html;
-                internal;
-        }
-
-        error_page 500 /http_error-pages-nginx/500.html;
-        location = /http_error-pages-nginx/500.html {
-                root /var/www/html;
-                internal;
-        }
-
-        error_page 502 /http_error-pages-nginx/502.html;
-        location = /http_error-pages-nginx/502.html {
-                root /var/www/html;
-                internal;
-        }
-
-```
-
-How to contribute?
-----------------------------------------------
-See the [master](https://github.com/jcplaboratory/http_error-pages-nginx/tree/master) branch.
+Clone this master branch `git clone -b master https://github.com/jcplaboratory/http_error-pages-nginx.git`
